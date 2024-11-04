@@ -37,4 +37,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=kiloecho-sonar_demo-java-security_7b9de580-cba8-476e-98fc-def5d976dede -Dsonar.projectName='demo-java-security'
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=kiloecho-sonar_demo-java-security -Dsonar.projectName='demo-java-security'
